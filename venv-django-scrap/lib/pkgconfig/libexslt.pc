@@ -1,0 +1,12 @@
+prefix=/home/thebrainer/projects/github/django-projects/django-projects/fakeimdb/venv-django-scrap
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: libexslt
+Version: 0.8.20
+Description: EXSLT Extension library
+Requires: libxml-2.0
+Libs: -L${libdir} -lexslt -lxslt -L/home/thebrainer/projects/github/django-projects/django-projects/fakeimdb/venv-django-scrap/lib -lxml2 -L/home/thebrainer/projects/github/django-projects/django-projects/fakeimdb/venv-django-scrap/lib -lz -L/home/thebrainer/projects/github/django-projects/django-projects/fakeimdb/venv-django-scrap/lib -llzma -L/home/thebrainer/projects/github/django-projects/django-projects/fakeimdb/venv-django-scrap/lib -L/home/thebrainer/projects/github/django-projects/django-projects/fakeimdb/venv-django-scrap/lib -licui18n -licuuc -licudata -lm -ldl -lm 
+Cflags: -I${includedir}

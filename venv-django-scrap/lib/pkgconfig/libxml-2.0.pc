@@ -1,0 +1,13 @@
+prefix=/home/thebrainer/projects/github/django-projects/django-projects/fakeimdb/venv-django-scrap
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.8
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/home/thebrainer/projects/github/django-projects/django-projects/fakeimdb/venv-django-scrap/lib -licui18n -licuuc -licudata  -L/home/thebrainer/projects/github/django-projects/django-projects/fakeimdb/venv-django-scrap/lib -lz -L/home/thebrainer/projects/github/django-projects/django-projects/fakeimdb/venv-django-scrap/lib -llzma -L/home/thebrainer/projects/github/django-projects/django-projects/fakeimdb/venv-django-scrap/lib -lm  
+Cflags: -I${includedir}/libxml2 -I/home/thebrainer/projects/github/django-projects/django-projects/fakeimdb/venv-django-scrap/include 

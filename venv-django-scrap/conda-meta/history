@@ -1,0 +1,55 @@
+==> 2018-10-21 18:33:35 <==
+# cmd: /home/thebrainer/anaconda3/bin/conda create --prefix=venv-django-scrap python=3.7
+# conda version: 4.5.11
++defaults::ca-certificates-2018.03.07-0
++defaults::certifi-2018.10.15-py37_0
++defaults::libedit-3.1.20170329-h6b74fdf_2
++defaults::libffi-3.2.1-hd88cf55_4
++defaults::libgcc-ng-8.2.0-hdf63c60_1
++defaults::libstdcxx-ng-8.2.0-hdf63c60_1
++defaults::ncurses-6.1-hf484d3e_0
++defaults::openssl-1.0.2p-h14c3975_0
++defaults::pip-10.0.1-py37_0
++defaults::python-3.7.0-h6e4f718_3
++defaults::readline-7.0-h7b6447c_5
++defaults::setuptools-40.4.3-py37_0
++defaults::sqlite-3.25.2-h7b6447c_0
++defaults::tk-8.6.8-hbc83047_0
++defaults::wheel-0.32.1-py37_0
++defaults::xz-5.2.4-h14c3975_4
++defaults::zlib-1.2.11-ha838bed_2
+# update specs: ['python=3.7']
+==> 2018-10-21 18:35:45 <==
+# cmd: /home/thebrainer/anaconda3/bin/conda install django
+# conda version: 4.5.11
++defaults::django-2.1.2-py37_0
++defaults::pytz-2018.5-py37_0
+# update specs: ['django']
+==> 2018-10-21 18:36:02 <==
+# cmd: /home/thebrainer/anaconda3/bin/conda install requests
+# conda version: 4.5.11
++defaults::asn1crypto-0.24.0-py37_0
++defaults::cffi-1.11.5-py37he75722e_1
++defaults::chardet-3.0.4-py37_1
++defaults::cryptography-2.3.1-py37hc365091_0
++defaults::idna-2.7-py37_0
++defaults::pycparser-2.19-py37_0
++defaults::pyopenssl-18.0.0-py37_0
++defaults::pysocks-1.6.8-py37_0
++defaults::requests-2.19.1-py37_0
++defaults::six-1.11.0-py37_1
++defaults::urllib3-1.23-py37_0
+# update specs: ['requests']
+==> 2018-10-21 18:36:18 <==
+# cmd: /home/thebrainer/anaconda3/bin/conda install beautifulsoup4
+# conda version: 4.5.11
++defaults::beautifulsoup4-4.6.3-py37_0
+# update specs: ['beautifulsoup4']
+==> 2018-10-21 18:39:55 <==
+# cmd: /home/thebrainer/anaconda3/bin/conda install lxml
+# conda version: 4.5.11
++defaults::icu-58.2-h9c2bf20_1
++defaults::libxml2-2.9.8-h26e45fe_1
++defaults::libxslt-1.1.32-h1312cb7_0
++defaults::lxml-4.2.5-py37hefd8a0e_0
+# update specs: ['lxml']
